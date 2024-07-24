@@ -1,0 +1,13 @@
+~$ ls /bin
+~$ ls -a
+~$ ls -d */
+~$ cat >text1.txt
+Hello <-[ENTER]
+(ctrl+D)
+~$ cp text1.txt text2.txt
+~$ cat >>text1.txt text2.txt
+~$ cat text1.txt
+Hello
+Hello
+~$ cat text2.txt
+Hello
